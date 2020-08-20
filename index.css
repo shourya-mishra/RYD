@@ -1,0 +1,110 @@
+ html
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+      
+}
+    body{
+       padding: 20px;
+        color:#26184a;
+
+    }
+    .div_main{
+        
+        margin-bottom: 40px;
+    }
+    .div1{
+        
+        display : flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 4vh;
+        width:100%;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 5px;
+    }
+    .div2{
+       
+        display : flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:100%;
+        background-image: linear-gradient(to left, #141e30, #243b55);
+        border-radius : 15px;
+        box-shadow: 1px 1px 5px 1px grey;
+        height: 30%;
+    }
+     .div3{
+       
+        display : flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: 'Roboto';
+       
+         width: 20%;
+         
+    }
+     .div4{
+        
+        display : flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width : 100%;
+        background-image: whitesmoke;
+        font-family: 'Roboto';
+         
+    }
+    
+    .div5{
+        border : 1.5px solid #141e30;
+        
+        width:95%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: whitesmoke;
+        background-image: linear-gradient(to left, #141e30, #141e30);
+        border-radius: 3px;
+    }
+    
+    .span1,.span2,.span4,.span5,.span6{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width :  ;
+        
+    }
+    
+    .span3{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width : 100% ;
+        background-color: whitesmoke;
+        padding : 10px;
+        border-radius : 15px;
+        margin-top : 12px;
+        margin-bottom: 10px;
+        box-shadow: 1px 2px 10px 0.5px #ccc;
+        height:;
+    }
+    
+   
+    button{
+        border-radius: 3px;
+			border:0px;
+			background: #141e30;
+			font-family: 'Roboto';
+			font-size:15;
+			color: whitesmoke;
+			outline: none;
+            height: 95%;
+    }
